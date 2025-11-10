@@ -10,7 +10,7 @@ As a software engineer in training, I wanted to strengthen my understanding of h
 safety, and simple arithmetic operations. This program gae me hands-on practice with real Kotlin concepts instead of
 just reading about them.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/rOlOgq8vA50)
 
 # Development Environment
 

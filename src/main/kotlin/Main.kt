@@ -77,7 +77,8 @@ fun averageFor(
 // Functions for input/read
 // ***********************************
 
-// This function reads a non-empty string
+// This function reads a non-empty string.
+// Reads a single person's info card and prints their details.
 fun readNonEmpty(prompt: String): String {
     while (true) {
             print(prompt)
@@ -88,6 +89,7 @@ fun readNonEmpty(prompt: String): String {
 }
 
 // This function read an Int within min--max (inclusive). Defaults to years from 1700...current.
+// It wants a whole year, between 1700 and the current year, and it keeps asking until it gets one. prevents "12345" or "words"
 fun readInt(prompt: String, min: Int = 1700, max: Int = LocalDate.now().year): Int {
     while (true) {
         print(prompt)
@@ -97,7 +99,7 @@ fun readInt(prompt: String, min: Int = 1700, max: Int = LocalDate.now().year): I
     }
 }
 
-// This function reads an optional Int within min--max. Empty input returns null.
+// This function reads an optional Int within min--max. Empty input returns null. This gives the option to leave blank, for if still living.
 fun readOptionalInt(prompt: String, min: Int, max: Int = LocalDate.now().year): Int? {
     while (true) {
         print("$prompt (Leave blank if living): ")
