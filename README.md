@@ -1,5 +1,6 @@
 # Overview
 Project: Family Lifespan Analyzer
+Author: Tanya Trampp
 
 The goal of this project was to build a small but functional Kotlin console program that analyzes family lifespan data.
 This project demonstrates my ability to use Kotlin syntax, data classes, enumerations, and basic logic to calculate how 

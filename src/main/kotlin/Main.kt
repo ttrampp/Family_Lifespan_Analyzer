@@ -324,7 +324,7 @@ fun main() {
             }
             // Option 0: Exit the program
             "0" -> {
-                println("Goodbye!")
+                println("Goodbye! Come back with more family names soon!")
                 return
             }
             else -> println("Pick 0-8")
